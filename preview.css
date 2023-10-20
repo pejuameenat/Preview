@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+section{
+    margin: 10rem auto;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 7px;
+}
+ 
+img{
+    padding:1.1rem 0 ;
+}
+.container{
+    width:80% ;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.container h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: hsl(0, 100%, 100%);
+    padding-bottom: 3rem;
+
+}
+.container p{
+    color: hsl(0, 100%, 100%);
+    padding-bottom: 6rem;
+}
+.container a{
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 100%, 100%);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0.8rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    font-weight: 700;
+    transition: 400ms;
+}
+.container a:hover{
+   border: 3px solid white;
+   background-color: transparent;
+   color: hsl(0, 100%, 100%);
+}
+.text_box{
+    max-width: 260px;
+}
+.one{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.two{
+  background-color:hsl(184, 100%, 22%);
+}
+.two a{
+    color: hsl(184, 100%, 22%);
+}
+.three{
+    background-color:hsl(179, 100%, 13%) ;
+}
+.three a{
+    color: hsl(179, 100%, 13%);
+}
+
+@media(min-width:600px) {
+    .flex_container{
+        display: flex;
+    }
+    .container a{
+        padding: 0.5rem;
+    }
+    .one,
+    .two,
+    .three{
+        width: 33.33%;
+    }
+
+}
